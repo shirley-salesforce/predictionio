@@ -84,6 +84,7 @@ val commonSettings = Seq(
   autoAPIMappings := true,
   licenseConfigurations := Set("compile"),
   licenseReportTypes := Seq(Csv),
+  excludeDependencies += "asm" % "asm",
   unmanagedClasspath in Test += conf,
   unmanagedClasspath in Test += baseDirectory.value.getParentFile / s"storage/jdbc/target/scala-${scalaBinaryVersion.value}/classes")
 
