@@ -47,6 +47,12 @@ A few installation options available.
 *   [Installing Apache PredictionIO with
     Docker](http://predictionio.apache.org/community/projects/#docker-images)
     (community contributed)
+*   Compile source for Philanthropy Cloud env
+```
+./make-distribution.sh -Dscala.version=2.11.8 -Dspark.version=2.3.1 -Delasticsearch.version=6.2.3 -Dhadoop.version=2.8.4
+```
+    
+    
 
 
 ## Quick Start
